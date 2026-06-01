@@ -517,7 +517,7 @@ app.get('/api/ai/news-dashboard', async (req, res) => {
 async function startServer() {
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      server: { middlewareMode: true, host: '0.0.0.0', allowedHosts: true },
       appType: 'spa'
     });
     app.use(vite.middlewares);
