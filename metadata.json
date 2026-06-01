@@ -1,0 +1,6 @@
+{
+  "name": "CurrencyX AI",
+  "description": "Premium mobile-first currency converter app supporting 170+ global currencies, real-time rates, historical charts, and advanced AI-driven financial insights, travel budgeting, and chatbot support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
