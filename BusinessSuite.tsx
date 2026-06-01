@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { Briefcase, Receipt, Percent, Plus, Trash2, Coins, Calculator, FileText, Landmark, Wallet, Check, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { UNIQUE_CURRENCIES, CURRENCY_MAP } from '../currencies';
-import { ExchangeRates } from '../types';
+import { UNIQUE_CURRENCIES, CURRENCY_MAP } from './currencies';
+import { ExchangeRates } from './types';
 
 interface BusinessSuiteProps {
   rates: ExchangeRates;

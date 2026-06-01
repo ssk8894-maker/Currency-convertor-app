@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { Swords, Crown, Award, Check, X, RotateCcw, Sparkles, AlertCircle, HelpCircle, Flame, ShieldCheck, Dumbbell } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { UNIQUE_CURRENCIES, CURRENCY_MAP } from '../currencies';
-import { ExchangeRates } from '../types';
+import { UNIQUE_CURRENCIES, CURRENCY_MAP } from './currencies';
+import { ExchangeRates } from './types';
 
 interface CurrencyBattleProps {
   rates: ExchangeRates;

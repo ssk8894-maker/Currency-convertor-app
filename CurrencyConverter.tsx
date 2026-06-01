@@ -8,8 +8,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { 
   AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid 
 } from 'recharts';
-import { Currency, ExchangeRates, ConversionHistoryItem } from '../types';
-import { UNIQUE_CURRENCIES, generateHistoricalRates } from '../currencies';
+import { Currency, ExchangeRates, ConversionHistoryItem } from './types';
+import { UNIQUE_CURRENCIES, generateHistoricalRates } from './currencies';
 
 interface CurrencyConverterProps {
   rates: ExchangeRates;

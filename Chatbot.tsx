@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, Sparkles, Send, ArrowRight, User, HelpCircle, Landmark } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ChatMessage } from '../types';
+import { ChatMessage } from './types';
 
 export default function Chatbot() {
   const [messages, setMessages] = useState<ChatMessage[]>([

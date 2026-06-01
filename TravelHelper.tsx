@@ -4,8 +4,8 @@ import {
   MapPin, HelpCircle, Calendar, Wallet, Check 
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Currency, ExchangeRates, TravelBudgetResult } from '../types';
-import { UNIQUE_CURRENCIES, CURRENCY_MAP } from '../currencies';
+import { Currency, ExchangeRates, TravelBudgetResult } from './types';
+import { UNIQUE_CURRENCIES, CURRENCY_MAP } from './currencies';
 
 interface TravelHelperProps {
   rates: ExchangeRates;

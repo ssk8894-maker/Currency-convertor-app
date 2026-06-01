@@ -4,8 +4,8 @@ import {
   RefreshCw, Award, ArrowUpRight, ArrowDownRight, Activity
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ExchangeRates, ConversionHistoryItem, ExchangeRateAlert } from '../types';
-import { UNIQUE_CURRENCIES, CURRENCY_MAP } from '../currencies';
+import { ExchangeRates, ConversionHistoryItem, ExchangeRateAlert } from './types';
+import { UNIQUE_CURRENCIES, CURRENCY_MAP } from './currencies';
 
 interface DashboardOverviewProps {
   rates: ExchangeRates;

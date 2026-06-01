@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { Plus, Trash2, Sliders, DollarSign, Info } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Currency, ExchangeRates } from '../types';
-import { UNIQUE_CURRENCIES, CURRENCY_MAP } from '../currencies';
+import { Currency, ExchangeRates } from './types';
+import { UNIQUE_CURRENCIES, CURRENCY_MAP } from './currencies';
 
 interface MultiConverterProps {
   rates: ExchangeRates;

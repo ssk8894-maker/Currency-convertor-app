@@ -5,16 +5,16 @@ import {
   Briefcase, Swords, Coins, FileText, Compass
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import CurrencyConverter from './components/CurrencyConverter';
-import MultiConverter from './components/MultiConverter';
-import TravelHelper from './components/TravelHelper';
-import Chatbot from './components/Chatbot';
-import DashboardOverview from './components/DashboardOverview';
-import TravelKit from './components/TravelKit';
-import BusinessSuite from './components/BusinessSuite';
-import CurrencyBattle from './components/CurrencyBattle';
-import SpendingAnalyzer from './components/SpendingAnalyzer';
-import EconomicDashboard from './components/EconomicDashboard';
+import CurrencyConverter from './CurrencyConverter';
+import MultiConverter from './MultiConverter';
+import TravelHelper from './TravelHelper';
+import Chatbot from './Chatbot';
+import DashboardOverview from './DashboardOverview';
+import TravelKit from './TravelKit';
+import BusinessSuite from './BusinessSuite';
+import CurrencyBattle from './CurrencyBattle';
+import SpendingAnalyzer from './SpendingAnalyzer';
+import EconomicDashboard from './EconomicDashboard';
 import { UNIQUE_CURRENCIES } from './currencies';
 import { ConversionHistoryItem, ExchangeRateAlert, ExchangeRates } from './types';
 

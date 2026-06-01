@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { Plane, Compass, ShieldAlert, PhoneCall, Globe, Coffee, Utensils, HelpCircle, CheckCircle2, ChevronRight, Calculator, Coins } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { UNIQUE_CURRENCIES, CURRENCY_MAP } from '../currencies';
-import { ExchangeRates } from '../types';
+import { UNIQUE_CURRENCIES, CURRENCY_MAP } from './currencies';
+import { ExchangeRates } from './types';
 
 interface TravelKitProps {
   rates: ExchangeRates;

@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { Sparkles, Trash2, Plus, Wallet, FileText, Compass, AlertCircle, AlertTriangle, ShieldCheck, HelpCircle, Check, Landmark, MessageSquare, Landmark as Bank } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { UNIQUE_CURRENCIES, CURRENCY_MAP } from '../currencies';
-import { ExchangeRates } from '../types';
+import { UNIQUE_CURRENCIES, CURRENCY_MAP } from './currencies';
+import { ExchangeRates } from './types';
 
 interface SpendingAnalyzerProps {
   rates: ExchangeRates;

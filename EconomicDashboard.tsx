@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Newspaper, Activity, TrendingUp, TrendingDown, RefreshCw, Flame, Coins, Percent, ShieldCheck, CornerDownRight, Landmark } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { UNIQUE_CURRENCIES, CURRENCY_MAP } from '../currencies';
-import { ExchangeRates } from '../types';
+import { UNIQUE_CURRENCIES, CURRENCY_MAP } from './currencies';
+import { ExchangeRates } from './types';
 
 interface EconomicDashboardProps {
   rates: ExchangeRates;
